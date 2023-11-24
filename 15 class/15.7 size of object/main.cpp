@@ -10,14 +10,7 @@ class MyStructure {
         char* myChar;
         int * car;
 
-
-
-
-
         MyStructure() = default;
-
-
-
 };
 
 int main() {
@@ -35,11 +28,6 @@ int main() {
     std::cout << sizeof(int) << std::endl;
     std::cout << sizeof(std::string) << std::endl;
     std::cout << sizeof(char *) << std::endl;
-
-
-
-
-
 
     return 0;
 }
