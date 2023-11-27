@@ -45,6 +45,7 @@
  * Have fun!! This is very, very challenging exercise!
  */
 #include <iostream>
+#include <vector>
 #include "Account.h"
 #include "Savings_Account.h"
 #include "Trust_Account.h"
@@ -73,6 +74,12 @@ int main() {
     cout << "Balance after withdrawal: " << t_acc.get_balance() << endl;
     cout << t_acc;
     cout << endl;
+
+
+    Savings_Account sa{};
+    cout << sa << endl;
+
+
 
     return 0;
 }
